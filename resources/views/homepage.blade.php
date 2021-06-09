@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <h2>Film Database</h2>
-        <div class="card">
+        <div class="card flex">
             @foreach ($movies as $movie)
             <ul>
                 <li>{{ $movie->id}}</li>
