@@ -1,1 +1,11 @@
-//
+// Import partial styles
+
+@import './partials/default';
+@import './partials/utilities';
+@import './partials/vars';
+
+
+// Sections
+
+@import './partials/header';
+@import './partials/movies';

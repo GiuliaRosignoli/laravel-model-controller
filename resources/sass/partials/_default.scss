@@ -1,0 +1,17 @@
+// General 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(35,17,99);
+    background: linear-gradient(90deg, rgba(35,17,99,1) 6%, rgba(16,15,48,1) 64%, rgba(69,70,252,1) 100%);
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quantico', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    color: $white;
+}

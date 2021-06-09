@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #231163;
+  background: linear-gradient(90deg, #231163 6%, #100f30 64%, #4546fc 100%);
+  font-family: "Cairo", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quantico", sans-serif;
+  font-family: "Ruda", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  height: 100px;
+  background-color: #03033f;
+}
+
+.film {
+  flex-direction: column;
+  justify-content: center;
+  height: 3rem;
+}
+
+.film h1 {
+  align-self: center;
+  padding-top: 1.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
