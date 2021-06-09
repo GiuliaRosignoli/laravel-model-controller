@@ -24,18 +24,18 @@ body {
 }
 
 header {
-  height: 100px;
+  background-color: #03033f;
+  height: 80px;
 }
 
 .film {
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 3rem;
 }
 
 .film h1 {
-  align-self: center;
-  padding-top: 1.4rem;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
@@ -59,13 +59,13 @@ h2 {
 }
 
 .card ul li {
-  padding-bottom: 2px;
+  padding-bottom: 4px;
   font-size: 0.8rem;
 }
 
 button {
   width: 9rem;
-  padding: 1rem;
+  padding: 0.7rem;
   margin-top: 1rem;
   background-color: #03033f;
   color: #fff;
