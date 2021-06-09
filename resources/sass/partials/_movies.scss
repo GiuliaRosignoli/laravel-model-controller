@@ -10,8 +10,12 @@ h2 {
     ul {
         flex-basis: calc(100% / 5);
         margin-bottom: 3rem;
-        padding: 3px;
+        padding: 10px 20px;
         border: 1px solid $white;
         list-style: none;
+        li {
+            padding-bottom: 2px;
+            font-size: 0.8rem;
+        }
     }
 }

@@ -25,7 +25,6 @@ body {
 
 header {
   height: 100px;
-  background-color: #03033f;
 }
 
 .film {
@@ -54,8 +53,23 @@ h2 {
 .card ul {
   flex-basis: calc(100% / 5);
   margin-bottom: 3rem;
-  padding: 3px;
+  padding: 10px 20px;
   border: 1px solid #fff;
   list-style: none;
+}
+
+.card ul li {
+  padding-bottom: 2px;
+  font-size: 0.8rem;
+}
+
+button {
+  width: 9rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #03033f;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 

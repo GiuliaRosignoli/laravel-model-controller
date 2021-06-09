@@ -6,12 +6,12 @@
         <div class="card flex">
             @foreach ($movies as $movie)
             <ul>
-                <li>{{ $movie->id}}</li>
-                <li>{{ $movie->title }}</li>
-                <li>{{ $movie->original_title }}</li>
-                <li>{{ $movie->nationality }}</li>
-                <li>{{ $movie->date }}</li>
-                <li>{{ $movie->vote }}</li>
+                <li>ID: {{ $movie->id}}</li>
+                <li>Title: {{ $movie->title }}</li>
+                <li>Original Title: {{ $movie->original_title }}</li>
+                <li>Nationality: {{ $movie->nationality }}</li>
+                <li>Date: {{ $movie->date }}</li>
+                <li>Vote: {{ $movie->vote }}</li>
             </ul>
          @endforeach
         </div>

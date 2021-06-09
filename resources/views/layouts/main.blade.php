@@ -26,7 +26,7 @@
 
         <!--Footer -->
         <footer>
-            footer
+            @include('./partials/footer')
         </footer>
     </body>
 </html>
